@@ -19,7 +19,7 @@ list(set=set, get=get,
 }
 ## Solves the inverse of the above matrix after checking the cache to see if a solution is already stored.
 
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(xgit , ...) {
         ## Return a matrix that is the inverse of 'x'
   m<-x$getmatrix()
   if(!is.null(m)){
